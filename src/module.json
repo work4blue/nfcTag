@@ -1,0 +1,7 @@
+
+	    {
+		    name:'nfcTag',
+		    class:'cn.bluedrum.apicloud.nfc.NfcTagModule'
+		}
+	
+

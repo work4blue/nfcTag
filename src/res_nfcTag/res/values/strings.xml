@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+
+    
+    <string name="mo_nfctag_open">打开NFC</string>
+    <string name="mo_nfctag_error">NFC无法工作</string>
+    <string name="mo_nfctag_tag_id">读取水表编号</string>
+    <string name="mo_nfctag_ready">请把手机贴近标签</string>
+    <string name="mo_nfctag_no_support">本手机不支持NFC功能</string>
+     <string name="mo_nfctag_disable">NFC功能未启用,</string>
+     <string name="mo_nfctag_open_setting">请按确定在系统设置中启用</string>
+     
+      
+     
+</resources>

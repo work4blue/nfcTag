@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+     >
+
+    <uses-sdk android:minSdkVersion="10" android:targetSdkVersion="20" />
+    
+    
+    <!-- 控制振动器-->
+    <uses-permission android:name="android.permission.VIBRATE" />   
+     <uses-permission android:name="android.permission.NFC" />
+    
+    
+        <!-- 读NFCtag 模块 -->
+         <activity
+            android:name="cn.bluedrum.apicloud.nfc.ReaderActivity" 
+            android:theme="@style/ReadDialogStyle"
+            android:configChanges="orientation|keyboardHidden"
+                  >
+            
+              <intent-filter>
+                <action android:name="android.nfc.action.TAG_DISCOVERED" />
+            </intent-filter>
+             
+         </activity>
+        	
+        
+
+</manifest>
